@@ -88,6 +88,7 @@ public class Main {
                     resultSet.getString("content"),
                     resultSet.getString("status"),
                     resultSet.getTimestamp("created_date"),
+
                     resultSet.getTimestamp("finished_date"));
         }
     }
