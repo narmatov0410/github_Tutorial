@@ -1,0 +1,5 @@
+### get all course
+GET localhost:8080/course/getAll
+
+### pagination get by price
+GET localhost:8080/course/paginationByPrice?page=1&size=10&price=1.6

@@ -1,0 +1,2 @@
+### get student list
+GET localhost:8080/student/getAll
