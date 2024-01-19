@@ -2,11 +2,11 @@ POST localhost:8080/studentCourseMark/create
 Content-Type: application/json
 
 {
-  "student": "beka",
-  "courseName": "data base",
-  "mark": "5"
+  "studentId": 2,
+  "courseId": 1,
+  "mark": 87
+  }
 
-}
 
 ### get student list
 GET localhost:8080/studentCourseMark/get/all
