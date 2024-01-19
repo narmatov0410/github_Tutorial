@@ -1,0 +1,12 @@
+POST localhost:8080/studentCourseMark/create
+Content-Type: application/json
+
+{
+  "studentId": 2,
+  "courseId": 1,
+  "mark": 87
+  }
+
+
+### get student list
+GET localhost:8080/studentCourseMark/get/all
